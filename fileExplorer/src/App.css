@@ -1,0 +1,51 @@
+.folder {
+  margin-top: 6px;
+  background-color: rgb(233, 233, 233);
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.folder > span {
+  margin: 0 5px 2px 0;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  background-color: rgb(233, 233, 233);
+  width: 300px;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+.inputContainer_input {
+  background-color: #fff;
+ color: black;
+  margin: 6px 0 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer >span{
+    margin-top: 5px;
+}
